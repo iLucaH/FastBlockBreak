@@ -1,0 +1,7 @@
+name: FastBlockBreak
+version: '${project.version}'
+main: com.ilucah.fastblockbreak.FastBlockBreak
+api-version: 1.13
+authors: [ iLucaH ]
+description: A resource for developers to break blocks faster
+website: ilucah.com
