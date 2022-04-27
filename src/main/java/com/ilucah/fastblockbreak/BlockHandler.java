@@ -7,6 +7,14 @@ import org.bukkit.Material;
 
 import static org.bukkit.Bukkit.getServer;
 
+/**
+ * A class to wrap the server version to the appropriate NMS provider.
+ *
+ * @author Lucas Hautrive
+ * @version 1.3
+ * @since 1.0
+ * @apiNote Create an instance of this class.
+ */
 public class BlockHandler {
 
     private NMSProvider provider;
@@ -22,10 +30,20 @@ public class BlockHandler {
         }
     }
 
+    /**
+     * @return Returns the serviced NMS Provider.
+     */
     public NMSProvider getHandle() {
         return provider;
     }
 
+    /**
+     * Method to set a block faster than bukkit allows.
+     *
+     * @param location The location of the block you want set.
+     * @param material The material of the new block you want to set.
+     * @param applyPhysics If you want to the block to update after set.
+     */
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         provider.setBlockFast(location, material, applyPhysics);
     }
