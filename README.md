@@ -2,8 +2,6 @@
 Break blocks faster than spigot/bukkit allows
 
 **Maven:**
-
-*Repository*
 ```
 	<repositories>
 		<repository>
@@ -11,19 +9,14 @@ Break blocks faster than spigot/bukkit allows
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-```
-*Dependency*
-```
+	
 	<dependency>
 	    <groupId>com.github.iLucaH</groupId>
 	    <artifactId>FastBlockBreak</artifactId>
 	    <version>1.0.4</version>
 	</dependency>
   ```
-
 **Gradle:**
-
-*Repository*
 ```
 	allprojects {
 		repositories {
@@ -31,9 +24,7 @@ Break blocks faster than spigot/bukkit allows
 			maven { url 'https://jitpack.io' }
 		}
 	}
-```
-*Dependency*
-```
+
 	dependencies {
 	        implementation 'com.github.iLucaH:FastBlockBreak:Tag'
 	}
