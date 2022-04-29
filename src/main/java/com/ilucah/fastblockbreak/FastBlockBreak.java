@@ -6,8 +6,7 @@ public final class FastBlockBreak extends JavaPlugin {
 
     private static BlockHandler blockHandler;
 
-    @Override
-    public void onEnable() {
+    static {
         blockHandler = new BlockHandler();
     }
 
