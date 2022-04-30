@@ -35,9 +35,9 @@ Visit the jitpack repository for more information: [![](https://jitpack.io/v/iLu
 
 __***~~------------------------------------------------------------------------------------------------------------------------------------------~~***__
 
-**How to use**
+# How to use
 
-You can utilize the BlockHandler class like this;
+**You can utilize the BlockHandler class like this;**
 ```java
     private final BlockHandler blockHandler = new BlockHandler();
     
@@ -45,7 +45,7 @@ You can utilize the BlockHandler class like this;
         blockHandler.setBlockFast(location, material, applyPhysics);
     }
 ```
-Or alternatively you can use the FastBlockBreak static method like this;
+**Or alternatively you can use the FastBlockBreak static method like this;**
 ```java
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         FastBlockBreak.getBlockHandler().setBlockFast(location, material, applyPhysics);
