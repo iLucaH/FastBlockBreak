@@ -31,3 +31,23 @@ Break blocks faster than spigot/bukkit allows
 ```
 
 Visit the jitpack repository for more information: [![](https://jitpack.io/v/iLucaH/FastBlockBreak.svg)](https://jitpack.io/#iLucaH/FastBlockBreak)
+
+
+__***~~------------------------------------------------------------------------------------------------------------------------------------------~~***__
+
+**How to use**
+
+You can utilize the BlockHandler class like this;
+```java
+    private final BlockHandler blockHandler = new BlockHandler();
+    
+    public void setBlockFast(Location location, Material material, boolean applyPhysics) {
+        blockHandler.setBlockFast(location, material, applyPhysics);
+    }
+```
+Or alternatively you can use the FastBlockBreak static method like this;
+```java
+    public void setBlockFast(Location location, Material material, boolean applyPhysics) {
+        FastBlockBreak.getBlockHandler().setBlockFast(location, material, applyPhysics);
+    }
+```
