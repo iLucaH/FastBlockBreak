@@ -33,7 +33,6 @@ Break blocks faster than spigot/bukkit allows
 Visit the jitpack repository for more information: [![](https://jitpack.io/v/iLucaH/FastBlockBreak.svg)](https://jitpack.io/#iLucaH/FastBlockBreak)
 
 
-__***~~------------------------------------------------------------------------------------------------------------------------------------------~~***__
 
 # How to use
 
