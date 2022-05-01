@@ -1,5 +1,5 @@
 # FastBlockBreak [![](https://jitpack.io/v/iLucaH/FastBlockBreak.svg)](https://jitpack.io/#iLucaH/FastBlockBreak)
-Break blocks faster than spigot/bukkit allows
+Break blocks faster than spigot/bukkit allows. Due to Bukkit's v1.17.1+ block break implementation being already blazing fast, this resource is and will always be version compatible with all versions `1.8.*`+.
 
 **Maven:**
 ```
