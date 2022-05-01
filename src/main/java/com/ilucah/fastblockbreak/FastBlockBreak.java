@@ -4,11 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class FastBlockBreak extends JavaPlugin {
 
-    private static BlockHandler blockHandler;
-
-    static {
-        blockHandler = new BlockHandler();
-    }
+    private static BlockHandler blockHandler = new BlockHandler();
 
     public static BlockHandler getBlockHandler() {
         return blockHandler;
