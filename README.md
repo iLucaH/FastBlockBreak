@@ -26,7 +26,7 @@ Break blocks faster than spigot/bukkit allows. Due to Bukkit's v1.17.1+ block br
 	}
 
 	dependencies {
-	        implementation 'com.github.iLucaH:FastBlockBreak:Tag'
+	        implementation 'com.github.iLucaH:FastBlockBreak:1.0.4'
 	}
 ```
 
