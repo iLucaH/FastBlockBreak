@@ -40,12 +40,14 @@ Visit the jitpack repository for more information: [![](https://jitpack.io/v/iLu
 ```java
     private final BlockHandler blockHandler = new BlockHandler();
     
+    // #setBlockFast(loc, Material.AIR, false);
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         blockHandler.setBlockFast(location, material, applyPhysics);
     }
 ```
 **Or alternatively you can use the FastBlockBreak static method like this;**
 ```java
+    // #setBlockFast(loc, Material.AIR, false);
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         FastBlockBreak.getBlockHandler().setBlockFast(location, material, applyPhysics);
     }
