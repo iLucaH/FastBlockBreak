@@ -13,7 +13,7 @@ Break blocks faster than spigot/bukkit allows. Due to Bukkit's v1.17.1+ block br
 	<dependency>
 	    <groupId>com.github.iLucaH</groupId>
 	    <artifactId>FastBlockBreak</artifactId>
-	    <version>1.0.4</version>
+	    <version>1.0.5</version>
 	</dependency>
   ```
 **Gradle:**
@@ -26,7 +26,7 @@ Break blocks faster than spigot/bukkit allows. Due to Bukkit's v1.17.1+ block br
 	}
 
 	dependencies {
-	        implementation 'com.github.iLucaH:FastBlockBreak:1.0.4'
+	        implementation 'com.github.iLucaH:FastBlockBreak:1.0.5'
 	}
 ```
 
@@ -40,12 +40,14 @@ Visit the jitpack repository for more information: [![](https://jitpack.io/v/iLu
 ```java
     private final BlockHandler blockHandler = new BlockHandler();
     
+    // #setBlockFast(loc, Material.AIR, false);
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         blockHandler.setBlockFast(location, material, applyPhysics);
     }
 ```
 **Or alternatively you can use the FastBlockBreak static method like this;**
 ```java
+    // #setBlockFast(loc, Material.AIR, false);
     public void setBlockFast(Location location, Material material, boolean applyPhysics) {
         FastBlockBreak.getBlockHandler().setBlockFast(location, material, applyPhysics);
     }
