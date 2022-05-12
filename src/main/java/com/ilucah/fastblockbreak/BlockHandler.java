@@ -11,8 +11,8 @@ import static org.bukkit.Bukkit.getServer;
  * A class to wrap the server version to the appropriate NMS provider.
  *
  * @author Lucas Hautrive
- * @version 1.3
- * @since 1.0
+ * @version 1.0.5
+ * @since 1.0.0
  * @apiNote Create an instance of this class.
  */
 public class BlockHandler {
